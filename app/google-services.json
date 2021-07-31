@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "312888863466",
+    "project_id": "android-shop-practice",
+    "storage_bucket": "android-shop-practice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312888863466:android:7ffafc4b362d035a398593",
+        "android_client_info": {
+          "package_name": "com.yorukarustudio.shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312888863466-59bpfpeugq8fg88anvtjavsntft269i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiXVxxSLF8QmAhQQPp4oyFkOW8vGKo0Kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312888863466-59bpfpeugq8fg88anvtjavsntft269i2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
