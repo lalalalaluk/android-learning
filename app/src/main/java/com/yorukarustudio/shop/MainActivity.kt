@@ -99,6 +99,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun functionClicked(holder: MainActivity.FunctionHolder, position: Int) {
         Log.d(TAG, "functionClicked: ${position}")
+        when(position){
+            1 -> startActivity(Intent(this,ContactActivity::class.java))
+        }
     }
 
     class FunctionHolder(view: View):RecyclerView.ViewHolder(view){

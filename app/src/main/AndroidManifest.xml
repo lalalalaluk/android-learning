@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.yorukarustudio.shop">
-
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +12,6 @@
         <activity android:name=".ContactActivity"></activity>
         <activity android:name=".NicknameActivity" />
         <activity android:name=".SignUp" />
-        <activity android:name=".SignupActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
